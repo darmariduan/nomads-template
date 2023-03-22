@@ -25,7 +25,7 @@ body{
 .btn-navbar-right{
     margin-top: -10px !important;
     margin-bottom: -8px !important;
-    margin-right: -30px !important;
+    margin-right: -33px !important;
     height: 70px;
     border-radius: 0;
 }
@@ -37,5 +37,35 @@ body{
     &:hover{
         background-color: #302db1;
         color: #ffffff;
+    }
+}
+
+header{
+    padding: 180px 0 165px;
+    margin-top: -70px;
+    background-image: url('../images/header-background@2x.jpg');
+    background-size: cover;
+
+    h1,p {
+        color: #ffffff;
+    }
+
+    h1{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    p{
+        font-size: 22px;
+    }
+
+    .btn-get-started{
+        background-color: #f37610;
+        color: #ffffff;
+
+        &:hover{
+          background-color: #e68f48;  
+          color: #ffffff;
+        }
     }
 }
