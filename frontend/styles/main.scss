@@ -1,150 +1,250 @@
-body{
-    background-color: #e4e3e3;
-    font-family: 'Assistant', sans-serif;
-    color:#05036e;
+body {
+  background-color: #ffffff;
+  font-family: "Assistant", sans-serif;
+  color: #05036e;
 }
 
-.navbar-brand{
-    img {
-        max-height: 40px;
+.navbar-brand {
+  img {
+    max-height: 40px;
+  }
+}
+
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      color: #05036e;
+      &.active {
+        font-weight: bold;
+        color: #05036e !important;
+      }
     }
+  }
 }
 
-.navbar-light{
-    .navbar-nav{
-        .nav-link{
-            color: #05036e;
-            &.active{
-                font-weight: bold;
-                color: #05036e !important;
-            }
-        }
-    }
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -33px !important;
+  height: 70px;
+  border-radius: 0;
 }
 
-.btn-navbar-right{
-    margin-top: -10px !important;
-    margin-bottom: -8px !important;
-    margin-right: -33px !important;
-    height: 70px;
-    border-radius: 0;
+.btn-login {
+  background-color: #05036e;
+  color: #ffffff;
+
+  &:hover {
+    background-color: #302db1;
+    color: #ffffff;
+  }
 }
 
-.btn-login{
-    background-color: #05036e;
+header {
+  padding: 180px 0 165px;
+  margin-top: -70px;
+  background-image: url("../images/header-background@2x.jpg");
+  background-size: cover;
+
+  h1,
+  p {
+    color: #ffffff;
+  }
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 50px;
+  }
+  p {
+    font-size: 22px;
+  }
+
+  .btn-get-started {
+    background-color: #f37610;
     color: #ffffff;
 
-    &:hover{
-        background-color: #302db1;
-        color: #ffffff;
+    &:hover {
+      background-color: #e68f48;
+      color: #ffffff;
     }
+  }
 }
 
-header{
-    padding: 180px 0 165px;
-    margin-top: -70px;
-    background-image: url('../images/header-background@2x.jpg');
-    background-size: cover;
+//Statistics
+.section-stats {
+  margin-top: -50px;
 
-    h1,p {
-        color: #ffffff;
-    }
+  .stats-detail {
+    padding-top: 15px;
+    background-color: #ffffff;
+    padding-left: 40px;
+  }
 
-    h1{
-        font-family: 'Playfair Display', serif;
-        font-weight: bold;
-        font-size: 50px;
-    }
-    p{
-        font-size: 22px;
-    }
+  h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
 
-    .btn-get-started{
-        background-color: #f37610;
-        color: #ffffff;
-
-        &:hover{
-          background-color: #e68f48;  
-          color: #ffffff;
-        }
-    }
-}
-
-//Statistics 
-.section-stats{
-    margin-top: -50px;
-
-    .stats-detail{
-        padding-top: 15px;
-        background-color: #ffffff;
-        padding-left: 40px;
-    }
-
-    h2{
-        font-size: 30px;
-        margin-bottom: 0;
-    }
-
-    p{
-        font-size: 20px;
-        font-weight: lighter;
-    }
+  p {
+    font-size: 20px;
+    font-weight: lighter;
+  }
 }
 
 //Popular
-.section-popular{
-    min-height: 540px;
-    background-color: #11103a;
-    margin-top: -50px;
-    margin-bottom: -230px;
+.section-popular {
+  min-height: 540px;
+  background-color: #11103a;
+  margin-top: -50px;
+  margin-bottom: -230px;
 
-    .section-popular-heading{
-        margin-top: 150px;
+  .section-popular-heading {
+    margin-top: 150px;
 
-        h2,p{
-            color: #ffffff;
-        }
+    h2,
+    p {
+      color: #ffffff;
     }
+  }
 
-    h2{
-        font-family: 'Playfair Display', serif;
-        font-weight: bold;
-        font-size: 40px;
-    }
+  h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
 
-    p{
-        font-size: 18px;
-    }
+  p {
+    font-size: 18px;
+  }
 }
 
-.section-popular-content{
-    .section-popular-travel{
-        .card-travel{
-            background-color: #000000;
-            min-height: 380px;
-            color: #ffffff;
-            padding: 30px;
-            background-size: cover;
-            margin-bottom: 20px;
-        }
-
-        .travel-country{
-          font-size: 18px;
-          color: #ffffff;  
-        }
-        .travel-location{
-          font-size: 18px;
-          color: #ffffff;  
-        }
-        .travel-button{
-           .btn-travel-details{
-            background-color: #f37610;
-            color: #ffffff;
-            &:hover{
-              background-color: #e68f48;
-              color: #ffffff;
-            }
-           } 
-        }
+.section-popular-content {
+  .section-popular-travel {
+    .card-travel {
+      background-color: #000000;
+      min-height: 380px;
+      color: #ffffff;
+      padding: 30px;
+      background-size: cover;
+      margin-bottom: 20px;
     }
+
+    .travel-country {
+      font-size: 18px;
+      color: #ffffff;
+    }
+    .travel-location {
+      font-size: 18px;
+      color: #ffffff;
+    }
+    .travel-button {
+      .btn-travel-details {
+        background-color: #f37610;
+        color: #ffffff;
+        &:hover {
+          background-color: #e68f48;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+.section-networks {
+  background-color: #ffffff;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+
+  h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.section-testimonial-heading {
+  background: linear-gradient(#ffffff 0%, rgb(255, 255, 255) 100%);
+  padding-top: 50px;
+  min-height: 506px;
+  h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  p {
+    font-size: 18px;
+  }
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+
+  .card-testimonial {
+    padding: 40px 20px 10px;
+    border-radius: 11px;
+    margin-bottom: 20px;
+  }
+
+  .testimonial-content {
+    min-height: 380px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .testimonial {
+    font-weight: 200;
+    font-size: 26px;
+    color: #44445f;
+    min-height: 160px;
+  }
+
+  .trip-to {
+    font-weight: normal;
+    font-size: 22px;
+    color: #44445f;
+  }
+
+  hr {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+}
+
+.btn-get-started {
+  background-color: #f37610;
+  color: #ffffff;
+
+  &:hover {
+    background-color: #e68f48;
+    color: #ffffff;
+  }
+}
+
+.btn-need-help {
+  background-color: #d8bda6;
+  color: #e2d6d6;
+
+  &:hover {
+    background-color: #e2cfbf;
+    color: #ffffff;
+  }
+}
+
+.section-footer {
+  a {
+    color: #05036e;
+  }
 }
